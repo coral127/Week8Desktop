@@ -66,7 +66,7 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            rigid.linearDamping = 0f;
+            rigid.linearDamping = 2f;
         }
     }
 
