@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6555175051395002692}
   - component: {fileID: 5087334750170221411}
   - component: {fileID: -8520870319821271690}
+  - component: {fileID: 7651901660820925930}
   m_Layer: 0
   m_Name: TPball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,9 +147,21 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.42
+--- !u!114 &7651901660820925930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981409205833307165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b995f36b796a75c45971509de6961953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
